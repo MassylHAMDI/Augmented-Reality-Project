@@ -1,23 +1,42 @@
-# Computer-vision_3dObj
+Augmented Reality Project
+Overview
+This project implements an augmented reality application that superimposes a 3D cube onto a video scene. The project was developed as part of the UE S1-22 course by HAMDI Massyl Yanis
+Features
 
-Ce projet concerne la vision par ordinateur et la reconstruction 3D d'objets.
+Camera calibration
+Homography estimation
+Pose estimation
+Feature tracking
+3D object projection (cube)
 
-## Démonstration vidéo
+Technologies Used
 
-Voici une démonstration du projet :
+MATLAB
+Computer Vision Toolbox
+Image Processing Toolbox
 
-https://github.com/user-attachments/assets/c90260e1-12b3-4cd8-9aba-9eb2d8dbd24b
+Project Structure
 
-## Contenu du projet
+Camera Calibration: Determines the intrinsic and extrinsic parameters of the camera.
+Homography Estimation: Calculates the transformation between the scene plane and the image plane.
+Pose Estimation: Determines the position and orientation of the camera relative to the scene.
+Feature Tracking: Tracks points of interest across video frames using MATLAB's Vision.PointTracker.
+3D Object Projection: Projects a 3D cube onto the video scene using the calculated projection matrix.
 
-- `images Calibration/` : Images pour la calibration
-- `Homographie.m` : Script MATLAB pour l'homographie
-- `Main.m` : Script MATLAB principal
-- `Projection.m` : Script MATLAB pour la projection
-- `Rapport_HAMDI_OUALI_Groupe1.pdf` : Rapport du projet
-- `calibrationSession.mat` : Données de session de calibration
-- `errors.m` : Script MATLAB pour la gestion des erreurs
+Installation
 
-## Langage utilisé
+Ensure you have MATLAB installed with the Computer Vision Toolbox and Image Processing Toolbox.
+Clone this repository to your local machine.
 
-Ce projet est entièrement développé en MATLAB.
+Usage
+
+Run the main script in MATLAB.
+The script will process the input video and generate an output video with the augmented 3D cube.
+
+Videos
+
+Input Video: https://github.com/user-attachments/assets/41dcedef-0156-424d-8f00-bdc241a1cc31
+Output Video: https://github.com/user-attachments/assets/550ff465-2cf3-4783-8b99-bddd863bf3a1
+
+Results
+The project successfully implements an augmented reality application with minimal error in rotation and translation matrices. The 3D cube is accurately projected onto the video scene.
