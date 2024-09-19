@@ -35,10 +35,8 @@ The script will process the input video and generate an output video with the au
 
 Videos
 
-Input Video: 
 https://github.com/user-attachments/assets/41dcedef-0156-424d-8f00-bdc241a1cc31
 
-Output Video: 
 https://github.com/user-attachments/assets/550ff465-2cf3-4783-8b99-bddd863bf3a1
 
 Results
