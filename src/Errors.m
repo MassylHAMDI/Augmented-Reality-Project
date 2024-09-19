@@ -2,7 +2,7 @@ function [error_R , error_T] = errors()
 %Cette fonction nous calcule les erreurs de rotation et de transition 
 
     % On importe les données dont on a besoin 
-    load ("calibrationSession.mat");
+    load ("data/calibrationSession.mat");
     R_furnis = calibrationSession.CameraParameters.RotationMatrices;
     T_furnis = calibrationSession.CameraParameters.TranslationVectors;
     Mw = calibrationSession.CameraParameters.WorldPoints; 
