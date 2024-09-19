@@ -6,7 +6,7 @@ Ce projet concerne la vision par ordinateur et la reconstruction 3D d'objets.
 
 Voici une démonstration du projet :
 
-https://github.com/MassyiHAMDI/Computer-vision_3dObj/assets/116282135/Video_init.mp4
+https://github.com/user-attachments/assets/c90260e1-12b3-4cd8-9aba-9eb2d8dbd24b
 
 ## Contenu du projet
 
